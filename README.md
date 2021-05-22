@@ -81,7 +81,7 @@ Enables docker to start on every machine boot up
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![Docker Container](https://github.com/dyarbrough21/ELK-Stack/blob/main/ELK-Stack/Images/Container%20Screenshot.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -100,6 +100,3 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 
 Run the playbooks, DVWA, ELK, Filebeat and Metricbeat from the /etc/ansible/roles directory.   Update the /etc/ansible/hosts file to include the IP address in the webservers and ELK.  Uncomment the webservers and ensure that the virtual machine private IP addresses are listed.  Run the playbook and navigate to ELKPublicIP:5601/app/kibana#/home to check that the installation worked as expected.
-
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
